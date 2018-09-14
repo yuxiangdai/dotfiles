@@ -1,0 +1,19 @@
+[core]
+	autocrlf = true
+	editor = nano
+[user]
+	name = Yuxiang Dai
+	email = YDai@indigo.ca
+[help]
+	autocorrect = 15
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	unstage = reset HEAD --
+	c = commit
+	a = add
+	cm = commit
+	s = status
+	b = branch
+	co = checkout
+[credential]
+	helper = manager

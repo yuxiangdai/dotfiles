@@ -1,0 +1,17 @@
+{
+    "env": {
+        "node": true
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "extends": [
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6
+      }
+  }
